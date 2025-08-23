@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lamisa Mahmud - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full z-10">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
+      <h1 class="text-xl font-bold">Lamisa Mahmud</h1>
+      <div>
+        <a href="#about" class="px-4 hover:text-blue-500">About</a>
+        <a href="#projects" class="px-4 hover:text-blue-500">Projects</a>
+        <a href="#contact" class="px-4 hover:text-blue-500">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="pt-24 text-center">
+    <h2 class="text-4xl font-bold">Hello, I’m Lamisa 👋</h2>
+    <p class="mt-4 text-lg text-gray-600">Computer Science Student | Researcher | Educator | Mathematicphile </p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto mt-16 px-4">
+    <h3 class="text-2xl font-semibold mb-4">About Me</h3>
+    <p>
+      I am a final-year Computer Science and Engineering student at BRAC University, with a strong academic record 
+      and a passion for technology, education, and research. My thesis explores Federated Learning and ADMM to 
+      extract counterfactuals from agricultural data, aiming to advance privacy-preserving AI in agriculture.
+    </p>
+    <p class="mt-3">
+      Alongside my studies, I work as an English Instructor at MENTORS’, preparing students for IELTS and academic 
+      success. I am also an experienced private tutor and an active volunteer supporting underprivileged communities 
+      and children with special needs.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="max-w-4xl mx-auto mt-16 px-4">
+    <h3 class="text-2xl font-semibold mb-4">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white shadow-md rounded-lg p-4">
+        <h4 class="text-lg font-semibold">Federated Learning for Agriculture</h4>
+        <p class="text-gray-600">Undergraduate thesis integrating ADMM with FL to extract counterfactuals in agricultural data.</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-4">
+        <h4 class="text-lg font-semibold">Leaf Disease Classification</h4>
+        <p class="text-gray-600">Deep learning project using MobileNetV2 in PyTorch to classify plant diseases from .npy datasets.</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-4">
+        <h4 class="text-lg font-semibold">EduFlow</h4>
+        <p class="text-gray-600">A web-based interactive learning tool for self-paced education (GitHub Pages).</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-4">
+        <h4 class="text-lg font-semibold">Nexpertise</h4>
+        <p class="text-gray-600">A PHP & MySQL-based booking system for electricians and plumbers, built with XAMPP.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-4xl mx-auto mt-16 px-4 pb-16">
+    <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+    <p>Email: <a href="mailto:lamisaprithula26@gmail.com" class="text-blue-500">lamisaprithula26@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/lamisa-mahmud-b38b47302" target="_blank" class="text-blue-500">linkedin.com/in/lamisa-mahmud-b38b47302</a></p>
+    <p>GitHub: <a href="https://babyz10.github.io/eduflow" target="_blank" class="text-blue-500">babyz10.github.io/eduflow</a></p>
+  </section>
+
+</body>
+</html>
