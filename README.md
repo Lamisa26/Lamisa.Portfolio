@@ -19,39 +19,48 @@
       </div>
     </div>
   </nav>
-
-  <!-- Hero Section -->
   <section class="pt-24 text-center">
-    <h2 class="text-4xl font-bold">Hello, I’m Lamisa 👋</h2>
-    <p class="mt-4 text-lg text-gray-600">Computer Science Student | Researcher | Educator | Mathematicphile </p>
+
+    <img src="./Lamisa.jpg"
+       alt="Lamisa Mahmud"
+       class="w-40 h-40 rounded-full object-cover object-center object-[center_20%] mx-auto mb-6">
+
+    <h2 class="text-4xl font-bold">Hi, I’m Lamisa 👋</h2>
+
+    <p class="mt-4 text-lg text-gray-600">
+     Computer Science Student | Researcher | Educator
+    </p>
+
+  </section>
   </section>
 
   <!-- About Section -->
   <section id="about" class="max-w-4xl mx-auto mt-16 px-4">
     <h3 class="text-2xl font-semibold mb-4">About Me</h3>
     <p>
-      I am a final-year Computer Science and Engineering student at BRAC University, with a strong academic record and a passion for technology, education,        and research. My thesis explores how multimodal artificial intelligence can improve crop disease diagnosis in low-resource environments by combining         computer vision, Retrieval-Augmented Generation (RAG), and explainable AI. It investigated the use of EfficientNet-B0 for disease classification,            BLIP-2 for symptom captioning, BERT-FAISS for knowledge retrieval, and Mistral-7B for evidence-grounded reasoning. The research introduced                   counterfactual explanations, confidence-based reasoning modes, and severity assessment to create a trustworthy, hallucination-resistant, and offline-        capable diagnostic system for farmers in agriculture.
+      I am a Computer Science and Engineering graduate from BRAC University, with a strong academic record and a passion for technology, education, and research. My thesis explores how multimodal AI framework for explainable crop disease diagnosis by integrating computer vision, Retrieval-Augmented Generation (RAG), and large language models for evidence-grounded decision support.
     </p>
     <p class="mt-3">
-      Alongside my studies, I work as an English Instructor at MENTORS' and a Merit Tutor, preparing students for IELTS and academic boards like AQA and           EdExcel. I am also an experienced volunteer supporting underprivileged communities and children with special needs.
+      Alongside my studies, I work as an English Instructor at MENTORS’, preparing students for IELTS and academic success. I am also an experienced private tutor and an active volunteer supporting underprivileged communities and children with special needs.
     </p>
   </section>
 
   <!-- Projects Section -->
   <section id="projects" class="max-w-4xl mx-auto mt-16 px-4">
-    <h3 class="text-2xl font-semibold mb-4">Projects</h3>
+    <h3 class="text-2xl font-semibold mb-4">Thesis & Projects</h3>
     <div class="grid md:grid-cols-2 gap-6">
       <div class="bg-white shadow-md rounded-lg p-4">
-        <h4 class="text-lg font-semibold">CARE-RAG: Counterfactual-Aware Retrieval-Augmented Generation for Crop Disease Diagnosis in low-resource settings</h4>
-        <p class="text-gray-600">Developed CARE-RAG, a multimodal AI system that integrates computer vision, RAG, and explainable AI to provide evidence-based and counterfactual crop disease diagnosis in low-resource settings.</p>
+        <h4 class="text-lg font-semibold">CARE-RAG: Counterfactual-Aware Retrieval-Augmented Generation for Crop Disease Diagnosis in low resource settings</h4>
+        <p class="text-gray-600">Developed CARE-RAG, a multimodal AI system that integrates crop disease diagnosis in low-resource environments by combining computer vision, Retrieval-Augmented Generation (RAG), and explainable AI. It investigated the use of EfficientNet-B0 for disease classification, BLIP-2 for symptom captioning, BERT-FAISS for knowledge retrieval, and Mistral-7B for evidence-grounded reasoning. The research introduced counterfactual explanations, confidence-based reasoning modes, and severity assessment to create a trustworthy, hallucination-resistant, and offline-capable diagnostic system for farmers to provide evidence-based and counterfactual crop disease diagnosis in low-resource settings.</p>
       </div>
       <div class="bg-white shadow-md rounded-lg p-4">
         <h4 class="text-lg font-semibold">Leaf Disease Classification</h4>
         <p class="text-gray-600">Deep learning project using EfficientNetB0 in PyTorch to classify plant diseases from .npy datasets.</p>
       </div>
       <div class="bg-white shadow-md rounded-lg p-4">
-        <h4 class="text-lg font-semibold">EduFlow</h4>
-        <p class="text-gray-600">A web-based interactive learning tool for self-paced education (<a href="https://babyz10.github.io/eduflow" target="_blank" class="text-blue-500">babyz10.github.io/eduflow </a>).</p>
+        <h4 class="text-lg font-semibold">EduFlow <a href="https://babyz10.github.io/eduflow" target="_blank" class="text-blue-500">babyz10.github.io/eduflow</a>
+</h4>
+        <p class="text-gray-600">A web-based interactive learning tool for self-paced education (GitHub Pages).</p>
       </div>
       <div class="bg-white shadow-md rounded-lg p-4">
         <h4 class="text-lg font-semibold">Nexpertise</h4>
