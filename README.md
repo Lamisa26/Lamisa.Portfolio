@@ -35,9 +35,7 @@
       extract counterfactuals from agricultural data, aiming to advance privacy-preserving AI in agriculture.
     </p>
     <p class="mt-3">
-      Alongside my studies, I work as an English Instructor at MENTORS’, preparing students for IELTS and academic 
-      success. I am also an experienced private tutor and an active volunteer supporting underprivileged communities 
-      and children with special needs.
+      Alongside my studies, I work as an English Instructor at MENTORS' and a Merit Tutor, preparing students for IELTS and academic boards like AQA and           EdExcel. I am also an experienced volunteer supporting underprivileged communities and children with special needs.
     </p>
   </section>
 
@@ -46,7 +44,7 @@
     <h3 class="text-2xl font-semibold mb-4">Projects</h3>
     <div class="grid md:grid-cols-2 gap-6">
       <div class="bg-white shadow-md rounded-lg p-4">
-        <h4 class="text-lg font-semibold">CARE-RAG: Counterfactual-Aware Retrieval-Augmented Generation for Crop Disease Diagnosis in low resource settings</h4>
+        <h4 class="text-lg font-semibold">CARE-RAG: Counterfactual-Aware Retrieval-Augmented Generation for Crop Disease Diagnosis in low-resource settings</h4>
         <p class="text-gray-600">Developed CARE-RAG, a multimodal AI system that integrates computer vision, RAG, and explainable AI to provide evidence-based and counterfactual crop disease diagnosis in low-resource settings.</p>
       </div>
       <div class="bg-white shadow-md rounded-lg p-4">
