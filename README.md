@@ -21,16 +21,7 @@
   </nav>
   <section class="pt-24 text-center">
 
-    <img src="./Lamisa.jpg"
-       alt="Lamisa Mahmud"
-       class="w-40 h-40 rounded-full object-cover object-center object-[center_20%] mx-auto mb-6">
-
-    <h2 class="text-4xl font-bold">Hi, I’m Lamisa 👋</h2>
-
-    <p class="mt-4 text-lg text-gray-600">
-     Computer Science Student | Researcher | Educator
-    </p>
-
+    
   </section>
   </section>
 
