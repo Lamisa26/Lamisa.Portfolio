@@ -47,11 +47,11 @@
     <div class="grid md:grid-cols-2 gap-6">
       <div class="bg-white shadow-md rounded-lg p-4">
         <h4 class="text-lg font-semibold">Federated Learning for Agriculture</h4>
-        <p class="text-gray-600">Undergraduate thesis integrating ADMM with FL to extract counterfactuals in agricultural data.</p>
+        <p class="text-gray-600">Developed CARE-RAG, a multimodal AI system that integrates computer vision, RAG, and explainable AI to provide evidence-based and counterfactual crop disease diagnosis in low-resource settings.</p>
       </div>
       <div class="bg-white shadow-md rounded-lg p-4">
         <h4 class="text-lg font-semibold">Leaf Disease Classification</h4>
-        <p class="text-gray-600">Deep learning project using MobileNetV2 in PyTorch to classify plant diseases from .npy datasets.</p>
+        <p class="text-gray-600">Deep learning project using EfficientNetB0 in PyTorch to classify plant diseases from .npy datasets.</p>
       </div>
       <div class="bg-white shadow-md rounded-lg p-4">
         <h4 class="text-lg font-semibold">EduFlow</h4>
