@@ -30,9 +30,7 @@
   <section id="about" class="max-w-4xl mx-auto mt-16 px-4">
     <h3 class="text-2xl font-semibold mb-4">About Me</h3>
     <p>
-      I am a final-year Computer Science and Engineering student at BRAC University, with a strong academic record 
-      and a passion for technology, education, and research. My thesis explores Federated Learning and ADMM to 
-      extract counterfactuals from agricultural data, aiming to advance privacy-preserving AI in agriculture.
+      I am a final-year Computer Science and Engineering student at BRAC University, with a strong academic record and a passion for technology, education,        and research. My thesis explores how multimodal artificial intelligence can improve crop disease diagnosis in low-resource environments by combining         computer vision, Retrieval-Augmented Generation (RAG), and explainable AI. It investigated the use of EfficientNet-B0 for disease classification,            BLIP-2 for symptom captioning, BERT-FAISS for knowledge retrieval, and Mistral-7B for evidence-grounded reasoning. The research introduced                   counterfactual explanations, confidence-based reasoning modes, and severity assessment to create a trustworthy, hallucination-resistant, and offline-        capable diagnostic system for farmers in agriculture.
     </p>
     <p class="mt-3">
       Alongside my studies, I work as an English Instructor at MENTORS' and a Merit Tutor, preparing students for IELTS and academic boards like AQA and           EdExcel. I am also an experienced volunteer supporting underprivileged communities and children with special needs.
