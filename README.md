@@ -46,7 +46,7 @@
     <h3 class="text-2xl font-semibold mb-4">Projects</h3>
     <div class="grid md:grid-cols-2 gap-6">
       <div class="bg-white shadow-md rounded-lg p-4">
-        <h4 class="text-lg font-semibold">Federated Learning for Agriculture</h4>
+        <h4 class="text-lg font-semibold">CARE-RAG: Counterfactual-Aware Retrieval-Augmented Generation for Crop Disease Diagnosis in low resource settings</h4>
         <p class="text-gray-600">Developed CARE-RAG, a multimodal AI system that integrates computer vision, RAG, and explainable AI to provide evidence-based and counterfactual crop disease diagnosis in low-resource settings.</p>
       </div>
       <div class="bg-white shadow-md rounded-lg p-4">
