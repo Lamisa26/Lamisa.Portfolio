@@ -31,7 +31,7 @@
     <p>
         I am a Computer Science and Engineering graduate from BRAC University with a strong academic record and a passion for technology, education, and             research. My interests lie in artificial intelligence, machine learning, computer vision, with a focus on developing explainable and impactful               solutions for real-world challenges. Through my academic projects and research, I have gained hands-on experience in multimodal AI systems, deep             learning, and large language models. Alongside my technical pursuits, I enjoy teaching and mentoring students, which has strengthened my                     communication, leadership, and problem-solving skills. 
     <p class="mt-3">
-      Alongside my studies, I work as an English Instructor at MENTORS’, preparing students for IELTS and academic success. I am also an experienced and           active volunteer supporting underprivileged communities and children with special needs.
+        Alongside my studies, I work as an English Instructor at MENTORS’ and Merit Tutor, preparing students for IELTS and academic boards like AQA and             EdExcel. I am also an experienced and active volunteer supporting underprivileged communities and children with special needs.
     </p>
   </section>
 
