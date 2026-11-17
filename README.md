@@ -1,76 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lamisa Mahmud - Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 text-gray-900">
+# Lamisa Mahmud — Portfolio Redesign
 
-  <!-- Navbar -->
-  <nav class="bg-white shadow-md fixed w-full z-10">
-    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
-      <h1 class="text-xl font-bold">Lamisa Mahmud</h1>
-      <div>
-        <a href="#about" class="px-4 hover:text-blue-500">About</a>
-        <a href="#projects" class="px-4 hover:text-blue-500">Projects</a>
-        <a href="#contact" class="px-4 hover:text-blue-500">Contact</a>
-      </div>
-    </div>
-  </nav>
-  <section class="pt-24 text-center">
+A responsive editorial + futuristic portfolio built with plain HTML, CSS, and JavaScript for GitHub Pages.
 
-    
-  </section>
-  </section>
+## Files
 
-  <!-- About Section -->
-  <section id="about" class="max-w-4xl mx-auto mt-16 px-4">
-    <h3 class="text-2xl font-semibold mb-4">About Me</h3>
-    <p>
-        I am a Computer Science and Engineering graduate from BRAC University with a strong academic record and a passion for technology, education, and             research. My interests lie in artificial intelligence, machine learning, computer vision, with a focus on developing explainable and impactful               solutions for real-world challenges. Through my academic projects and research, I have gained hands-on experience in multimodal AI systems, deep             learning, and large language models. Alongside my technical pursuits, I enjoy teaching and mentoring students, which has strengthened my                     communication, leadership, and problem-solving skills. 
-    <p class="mt-3">
-        Alongside my studies, I work as an English Instructor at MENTORS’ and Merit Tutor, preparing students for IELTS and academic boards like AQA and             EdExcel. I am also an experienced and active volunteer supporting underprivileged communities and children with special needs.
-    </p>
-  </section>
+- `index.html` — page structure and portfolio content
+- `style.css` — design system, responsive layout, visual artwork, and animations
+- `script.js` — mobile menu, scroll reveals, cursor glow, and interactive 3D hero tilt
+- `assets/Lamisa_Mahmud_Resume.pdf` — the CV supplied for this redesign
+- `assets/portrait.jpg` — **add your new professional portrait here** (not included yet)
 
-  <!-- Projects Section -->
-  <section id="projects" class="max-w-4xl mx-auto mt-16 px-4">
-    <h3 class="text-2xl font-semibold mb-4">Thesis & Projects</h3>
-    <div class="grid md:grid-cols-2 gap-6">
-      <div class="bg-white shadow-md rounded-lg p-4">
-        <h4 class="text-lg font-semibold">
-          CARE-RAG: Counterfactual-Aware Retrieval-Augmented Generation for Crop Disease Diagnosis in low-resource settings
-        </h4>
-        <p class="text-gray-600">
-          Developed CARE-RAG, a trustworthy, offline-capable multimodal AI system for crop disease diagnosis by integrating computer vision, RAG, and                  explainable AI.
-        </p>
-      </div>
-      <div class="bg-white shadow-md rounded-lg p-4">
-        <h4 class="text-lg font-semibold">Leaf Disease Classification</h4>
-        <p class="text-gray-600">
-          Deep learning project using EfficientNetB0 in PyTorch to classify plant diseases from .npy datasets.</p>
-      </div>
-      <div class="bg-white shadow-md rounded-lg p-4">
-        <h4 class="text-lg font-semibold">
-          EduFlow <a href="https://babyz10.github.io/eduflow" target="_blank" class="text-blue-500">babyz10.github.io/eduflow</a>
-        </h4>
-        <p class="text-gray-600">A web-based interactive learning tool for self-paced education (GitHub Pages).</p>
-      </div>
-      <div class="bg-white shadow-md rounded-lg p-4">
-        <h4 class="text-lg font-semibold">Nexpertise</h4>
-        <p class="text-gray-600">A PHP & MySQL-based booking system for electricians and plumbers, built with XAMPP.</p>
-      </div>
-    </div>
-  </section>
+## Preview locally
 
-  <!-- Contact Section -->
-  <section id="contact" class="max-w-4xl mx-auto mt-16 px-4 pb-16">
-    <h3 class="text-2xl font-semibold mb-4">Contact</h3>
-    <p>Email: <a href="mailto:lamisaprithula26@gmail.com" class="text-blue-500">lamisaprithula26@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/lamisa-mahmud-b38b47302" target="_blank" class="text-blue-500">linkedin.com/in/lamisa-mahmud-b38b47302</a></p>
-  </section>
+Open `index.html` in a browser. For the best local preview, use VS Code Live Server or run:
 
-</body>
-</html>
+```bash
+python -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
+
+## Publish to your existing GitHub Pages site
+
+1. Download and unzip this package.
+2. Add your portrait as `assets/portrait.jpg` (JPG or JPEG).
+3. Review the content and contact details in `index.html`.
+4. Back up the existing repository files.
+5. Replace the repository's `index.html`, and add `style.css`, `script.js`, and the `assets` folder.
+6. Commit and push to the `main` branch.
+7. In GitHub, check **Settings → Pages** and confirm the site is deployed from the intended branch/folder.
+
+Your existing site URL should remain:
+https://lamisa26.github.io/Lamisa.Portfolio/
+
+## Before publishing — please verify
+
+- The CV currently lists `lamisa.mahmud14@gmail.com`; the existing website previously displayed `lamisaprithula26@gmail.com`. This redesign uses the CV email. Confirm which address you want public.
+- Your existing website describes Leaf Disease Classification with EfficientNetB0, while your uploaded CV says MobileNetV2. The new page deliberately avoids naming the final architecture in the project card. Confirm the correct model before adding a detailed case study.
+- The current public website describes CARE-RAG as a developed multimodal system. Check the final project title, implementation status, and claims against your thesis/report before publishing.
+- Add GitHub repository links for individual projects where available.
+- The new portrait is not included; the page shows a styled placeholder until you add `assets/portrait.jpg`.
+
+## Editing tips
+
+- Update text, URLs, and project details in `index.html`.
+- Change colors in the `:root` block at the top of `style.css`.
+- The 3D hero artwork is CSS-based and reacts to pointer movement; no large 3D library is required.
+- Animations respect the visitor's `prefers-reduced-motion` accessibility setting.
+- Fonts are loaded from Google Fonts; a system-font fallback is included.
