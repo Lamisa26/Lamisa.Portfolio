@@ -11,41 +11,22 @@ section{position:relative}.section-light{background:var(--paper);color:var(--ink
 .leaf-art {
   background: #dce7d5;
   overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .leaf-art img {
-  position: absolute;
-  width: 62%;
-  height: 75%;
-  top: 50%;
-  left: 50%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
-
-  clip-path: ellipse(48% 50% at 50% 50%);
-
-  transform: translate(-50%, -50%) rotate(0deg);
-  filter: drop-shadow(0 12px 15px #315a3355);
-  transition: transform 0.7s ease;
-  z-index: 1;
+  border-radius: inherit;
+  transition: transform 0.8s ease;
 }
 
 .project-card:hover .leaf-art img {
-  transform: translate(-50%, -50%) rotate(8deg) scale(1.08);
+  transform: scale(1.08);
 }
 
-.leaf-art .art-type {
-  color: #36533a;
-  z-index: 2;
-}
 
-.leaf-art .art-number {
-  z-index: 2;
-}
   
 .leaf-art .art-type{color:#36533a}.eduflow-art{background:#e4ddf3}.browser-mock{width:64%;max-width:390px;background:#f8f7fc;box-shadow:0 30px 50px #554b7540;transform:rotate(-5deg);transition:transform .5s}.project-card:hover .browser-mock{transform:rotate(0) translateY(-8px)}.browser-top{height:24px;background:#d4cce8;display:flex;gap:5px;align-items:center;padding:0 10px}.browser-top i{width:6px;height:6px;border-radius:50%;background:#9389b7}.browser-body{padding:22px}.browser-body span,.booking-ui>span{font: .48rem var(--mono);letter-spacing:.1em;color:#746a9b}.browser-body b{display:block;font:600 1.5rem/1.1 var(--serif);margin:10px 0;color:#29263f}.mock-lines{height:25px;border-top:1px solid #ddd8e9;border-bottom:1px solid #ddd8e9}.mock-blocks{display:flex;gap:7px;margin-top:12px}.mock-blocks i{height:40px;flex:1;background:#c9c2e1}.mock-blocks i:nth-child(2){background:#9d91c7}.nexpertise-art{background:#d8e1e8}.booking-ui{background:#f8f9f7;padding:30px;width:62%;max-width:330px;box-shadow:0 30px 50px #2b465044;transform:rotate(4deg);transition:transform .5s}.project-card:hover .booking-ui{transform:rotate(0) translateY(-8px)}.booking-ui b{display:block;font:600 1.5rem/1.1 var(--serif);margin:12px 0;color:#273642}.booking-line{height:1px;background:#c5d0d5;margin:20px 0}.booking-pill{display:inline-block;background:#263c4a;color:white;padding:8px 11px;font: .45rem var(--mono)}.cancer-art{background:#e4dce3}.scan-rings{width:220px;aspect-ratio:1;border:1px solid #967e98;border-radius:50%;display:grid;place-items:center;position:relative;color:#755b79}.scan-rings:before,.scan-rings:after{content:"";position:absolute;inset:14%;border:1px dashed #9f82a0;border-radius:50%}.scan-rings:after{inset:28%;border-style:solid}.scan-rings i{position:absolute;width:7px;height:7px;border-radius:50%;background:#8d6691;top:10%;left:55%;box-shadow:0 0 15px #a879ac}.scan-rings i:nth-child(2){top:70%;left:20%}.scan-rings i:nth-child(3){top:78%;left:75%}.scan-rings b{font:600 2rem var(--serif)}.project-info{display:flex;justify-content:space-between;gap:20px;padding:20px 0 0}.project-info .eyebrow{font-size:.56rem;color:#85838a;margin-bottom:10px}.project-info h3{font-size:1.65rem;letter-spacing:-.05em;margin-bottom:8px}.project-info p:not(.eyebrow){font-size:.83rem;color:#6c6c72;max-width:620px;margin-bottom:0}.project-arrow{font-size:1.5rem;color:var(--blue)}.project-link{display:inline-block;margin-top:12px;font-size:.72rem;font-weight:700;border-bottom:1px solid var(--blue);padding-bottom:3px;color:var(--blue)}
 .experience-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:10vw}.experience-intro h2{margin-bottom:25px}.experience-intro p{max-width:330px;color:#59586a;margin-bottom:30px}.timeline{border-top:1px solid #29263f38}.timeline-item{display:grid;grid-template-columns:145px 1fr;gap:20px;padding:25px 0;border-bottom:1px solid #29263f38}.timeline-date{font: .58rem var(--mono);color:#6f6a87;letter-spacing:.08em;padding-top:6px}.timeline-item h3{font-size:1.25rem;margin:0 0 2px;letter-spacing:-.04em}.timeline-org{font-size:.75rem;font-weight:700;color:#5d56a1;margin-bottom:9px}.timeline-item p:last-child{font-size:.83rem;color:#5d5b69;margin:0}
