@@ -76,34 +76,38 @@ section{position:relative}.section-light{background:var(--paper);color:var(--ink
 }
 
 
-/* FINAL PROJECT LAYOUT FIX */
 
-/* Stack all four projects vertically */
+/* PROJECTS — Section 2 style framing */
+
 .project-grid {
   display: flex !important;
   flex-direction: column !important;
-  gap: 65px !important;
+  gap: 45px !important;
   width: 100%;
 }
 
 .project-grid > .project-card {
+  display: flex !important;
+  flex-direction: column !important;
   width: 100%;
   min-width: 0;
-  grid-column: auto !important;
+  background: var(--night-2);
+  border: 1px solid #ffffff18;
+  overflow: hidden;
 }
 
-/* Give each project image a proper frame */
+/* Image frame at the top */
 .project-grid .project-art {
   width: 100%;
-  height: clamp(240px, 38vw, 440px);
+  height: 420px;
   position: relative;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
+  background: var(--night-2);
 }
 
-/* Show the COMPLETE PNG without cropping */
+/* Display the complete project screenshot */
 .project-grid .project-art img.project-image {
   position: absolute;
   inset: 0;
@@ -111,36 +115,66 @@ section{position:relative}.section-light{background:var(--paper);color:var(--ink
   height: 100%;
   object-fit: contain !important;
   object-position: center;
-  padding: 12px;
+  padding: 20px;
   display: block;
   z-index: 1;
-  transition: transform 0.8s ease;
+  transition: transform .8s ease;
 }
 
-/* Preserve hover animation without cropping */
 .project-grid .project-card:hover .project-image {
   transform: scale(1.035);
 }
 
-/* Keep labels visible */
+/* Project information below the image */
+.project-grid .project-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 35px;
+  border-top: 1px solid #ffffff18;
+}
+
+.project-grid .project-info h3 {
+  color: #f4f2ed;
+}
+
+.project-grid .project-info p:not(.eyebrow) {
+  color: #b8bac7;
+}
+
+.project-grid .project-info .eyebrow {
+  color: #aab2ff;
+}
+
+.project-grid .project-arrow {
+  color: #a7b0ff;
+}
+
+.project-grid .project-link {
+  color: #a7b0ff;
+  border-color: #a7b0ff;
+}
+
 .project-grid .art-type,
 .project-grid .art-number {
   z-index: 3;
+  color: #ffffff;
 }
 
-/* Mobile layout */
+/* Mobile */
 @media (max-width: 680px) {
   .project-grid {
-    gap: 42px !important;
+    gap: 35px !important;
   }
 
   .project-grid .project-art {
-    height: 250px;
+    height: 270px;
   }
 
-  .project-grid .project-art img.project-image {
-    padding: 8px;
+  .project-grid .project-info {
+    padding: 24px;
+    align-items: flex-start;
   }
 }
-
-
